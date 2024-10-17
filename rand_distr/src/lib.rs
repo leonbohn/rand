@@ -102,6 +102,7 @@ pub use self::beta::{Beta, Error as BetaError};
 pub use self::binomial::{Binomial, Error as BinomialError};
 pub use self::cauchy::{Cauchy, Error as CauchyError};
 pub use self::chi_squared::{ChiSquared, Error as ChiSquaredError};
+pub use self::continuous_bernoulli::{ContinuousBernoulli, Error as ContinuousBernoulliError};
 #[cfg(feature = "alloc")]
 pub use self::dirichlet::{Dirichlet, Error as DirichletError};
 pub use self::exponential::{Error as ExpError, Exp, Exp1};
@@ -198,6 +199,7 @@ mod beta;
 mod binomial;
 mod cauchy;
 mod chi_squared;
+mod continuous_bernoulli;
 mod dirichlet;
 mod exponential;
 mod fisher_f;
